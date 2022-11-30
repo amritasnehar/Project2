@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 double inputValidate(double); // 6.30 is 6:30 am and 21 is 9pm  
-double inputValidate(double, int); // $6.00 dollars
-char inputValidate(char); // Y or n for yes or no
+double inputValidate1(double, int); // $6.00 dollars
+char inputValidate2(char); // Y or n for yes or no
 void getTotDaysOnTrip(int*);
 void getDepartAndArriveTime(double*, double*);
 void getRoundTripAirFare(double*);
